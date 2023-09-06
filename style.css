@@ -1,0 +1,167 @@
+/* GENERALES STYLES */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer
+{
+    background-color: #582b80;
+    padding-top: 10px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+
+/* HEADER */
+
+header ul
+{
+    display: flex;
+    font-size: 1.5em;
+}
+
+nav li
+{
+    list-style: none;
+    margin: 1em;
+    color: black;
+}
+
+/* SEC1 */
+
+#sec1
+{
+    background-image: url(images/backgroung_image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+    text-align: center;
+}
+
+#sec1 img
+{
+    margin-top: 300px;
+    height: 90px;
+}
+
+#sec1 h2
+{
+    margin-top: 20px;
+    font-family: monospace;
+    color: #fff;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+/* SEC2*/
+
+#contact
+
+{ 
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+.p1
+{
+    text-align: center;
+    font-size: 2em;  
+}
+
+.pp1
+{ 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contact1
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#contact h4
+{
+    font-size: 2em;
+    margin: 1px;
+    font-weight: 300;    
+}
+
+#contact p
+{
+    font-size: 1.5em;
+    margin: 1px;   
+}
+
+name
+{
+    opacity: 0.5;   
+}
+
+/* FOOTER */
+
+footer p
+{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+.div3 
+{
+    text-align: center;
+    margin: 30px;
+}
+
+.div3 img
+{
+    margin: 10px 80px;
+}
+
+.contact11
+{
+    color: white; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact11 ul
+{
+    color: white;
+    display: block;
+}
+
+.contact11 a
+{    
+    color: white;
+}
+
+.contact11 h5
+{
+    font-size: 2em;
+    margin: 1px;
+    font-weight: 300;
+    text-align: left;
+    color: white;
+    opacity: 0.3;
+}
+
+.tdp
+{   
+    list-style: none;
+}
+
+
+
+
